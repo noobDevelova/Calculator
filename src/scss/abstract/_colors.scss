@@ -1,0 +1,38 @@
+$bg: #d9d9d9;
+$grey: #9c9c9c;
+$tosca: #30e3df;
+$yellow: #fce22a;
+$subtext: #6a6565;
+$linearPurple: linear-gradient(
+  214.02deg,
+  rgba(183, 92, 255, 0.5) 6.04%,
+  rgba(103, 26, 228, 0.5) 92.95%
+);
+$linearIcon: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+
+$colors: (
+  primary: (
+    10: #e3ffff,
+    20: #d5ffff,
+    30: #c7ffff,
+    40: #aaffff,
+  ),
+  secondary: (
+    10: #c3a3ff,
+    20: #b68fff,
+    30: #a87aff,
+    40: #8e52ff,
+  ),
+  error: (
+    10: #f9b3bc,
+    20: #f7a0ab,
+    30: #f58d9a,
+    40: #f26879,
+  ),
+  typography: (
+    10: #525252,
+    20: #474747,
+    30: #3d3d3d,
+    40: #292929,
+  ),
+);

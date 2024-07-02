@@ -1,0 +1,12 @@
+@use "../abstract/fonts" as *;
+@use "../abstract/colors" as *;
+
+.title {
+  font-family: $poppins;
+  font-size: 40px;
+}
+
+.subtext {
+  font-family: $poppins;
+  color: $subtext;
+}

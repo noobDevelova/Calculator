@@ -1,0 +1,34 @@
+@use "../abstract/colors" as *;
+@use "../abstract/fonts" as *;
+@use "../abstract/mixins" as *;
+
+.btn-primary {
+  height: 70px;
+  background-color: #fff;
+  border: 3px solid black;
+  box-shadow: 3px 3px 0px #000000;
+  border-radius: 4px;
+  font-family: $fredoka;
+  @include font-weight(semibold);
+  font-size: 32px;
+  cursor: pointer;
+}
+
+// .zero-sign {
+//   grid-column-start: 1;
+//   grid-column-end: 3;
+//   width: 100%;
+// }
+
+.marked1 {
+  color: $tosca;
+}
+.marked2 {
+  color: $yellow;
+}
+
+.clear {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+}

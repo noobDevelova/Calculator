@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+
+.subtext {
+  font-family: "Poppins", sans-serif;
+  color: #6a6565;
+}
+
+:root {
+  --clr-primary-10: #e3ffff;
+  --clr-primary-20: #d5ffff;
+  --clr-primary-30: #c7ffff;
+  --clr-primary-40: #aaffff;
+  --clr-secondary-10: #c3a3ff;
+  --clr-secondary-20: #b68fff;
+  --clr-secondary-30: #a87aff;
+  --clr-secondary-40: #8e52ff;
+  --clr-error-10: #f9b3bc;
+  --clr-error-20: #f7a0ab;
+  --clr-error-30: #f58d9a;
+  --clr-error-40: #f26879;
+  --clr-typography-10: #525252;
+  --clr-typography-20: #474747;
+  --clr-typography-30: #3d3d3d;
+  --clr-typography-40: #292929;
+  --fs-300: 1rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.563rem;
+  --fs-600: 1.953rem;
+  --fs-700: 2.441rem;
+  --fs-800: 3.052rem;
+}
+@media only screen and (min-width: 40rem) {
+  :root {
+    --fs-300: 1rem;
+    --fs-400: 1.425rem;
+    --fs-500: 2rem;
+    --fs-600: 2.827rem;
+    --fs-700: 4rem;
+    --fs-800: 5.653rem;
+  }
+}
+
+.text-primary-10 {
+  color: #e3ffff;
+}
+
+.text-primary-20 {
+  color: #d5ffff;
+}
+
+.text-primary-30 {
+  color: #c7ffff;
+}
+
+.text-primary-40 {
+  color: #aaffff;
+}
+
+.text-secondary-10 {
+  color: #c3a3ff;
+}
+
+.text-secondary-20 {
+  color: #b68fff;
+}
+
+.text-secondary-30 {
+  color: #a87aff;
+}
+
+.text-secondary-40 {
+  color: #8e52ff;
+}
+
+.text-error-10 {
+  color: #f9b3bc;
+}
+
+.text-error-20 {
+  color: #f7a0ab;
+}
+
+.text-error-30 {
+  color: #f58d9a;
+}
+
+.text-error-40 {
+  color: #f26879;
+}
+
+.text-typography-10 {
+  color: #525252;
+}
+
+.text-typography-20 {
+  color: #474747;
+}
+
+.text-typography-30 {
+  color: #3d3d3d;
+}
+
+.text-typography-40 {
+  color: #292929;
+}
+
+.btn-primary {
+  height: 70px;
+  background-color: #fff;
+  border: 3px solid black;
+  box-shadow: 3px 3px 0px #000000;
+  border-radius: 4px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.marked1 {
+  color: #30e3df;
+}
+
+.marked2 {
+  color: #fce22a;
+}
+
+.clear {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+}
+
+.calc-border {
+  width: 97%;
+  height: 215px;
+  margin: 0 auto;
+  background-color: #000000;
+  position: relative;
+  -webkit-clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%, 0 40%);
+          clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%, 0 40%);
+  padding-block: 4px;
+  padding-left: 4px;
+  padding-right: 5px;
+  margin-bottom: 60px;
+}
+.calc-border .calc-box {
+  width: 100%;
+  height: 207px;
+  background-color: #fff;
+  position: relative;
+  -webkit-clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%, 0 40%);
+          clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%, 0 40%);
+}
+.calc-border .calc-box .line1 {
+  position: absolute;
+  width: 100%;
+  height: 14px;
+  background-color: #30e3df;
+  bottom: 14px;
+}
+.calc-border .calc-box .line2 {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 14px;
+  background-color: #fce22a;
+}
+
+.box-wrapper {
+  padding-inline: 20px;
+  padding-top: 45px;
+  position: relative;
+  z-index: 9999;
+}
+.box-wrapper .counter {
+  color: #9c9c9c;
+  text-align: end;
+  font-family: "Fredoka", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+}
+.box-wrapper .result {
+  width: 100%;
+  text-align: right;
+  font-size: 48px;
+  font-weight: 600;
+  border: none;
+  font-family: "Fredoka", sans-serif;
+}
+
+header {
+  margin-top: 20px;
+  padding-inline: 30px;
+}
+
+.frame {
+  height: 990px;
+  width: 522px;
+  border: 1.334vh solid black;
+  border-radius: 90px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.frame .notch {
+  position: absolute;
+  width: 20%;
+  height: 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color: black;
+  top: 15px;
+  z-index: 1999;
+}
+.frame .inner-frame {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.inner-container {
+  padding-top: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 31px;
+}/*# sourceMappingURL=main.css.map */

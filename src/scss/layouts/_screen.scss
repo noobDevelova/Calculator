@@ -1,0 +1,36 @@
+@use "../abstract/colors" as *;
+
+header {
+  margin-top: 20px;
+  padding-inline: 30px;
+}
+
+.frame {
+  height: 990px;
+  width: 522px;
+  border: 1.334vh solid black;
+  border-radius: 90px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+
+  .notch {
+    position: absolute;
+    width: 20%;
+    height: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background-color: black;
+    top: 15px;
+    z-index: 1999;
+  }
+  .inner-frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: $bg;
+    // z-index: -1;
+  }
+}

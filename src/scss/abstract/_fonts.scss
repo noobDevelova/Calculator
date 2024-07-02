@@ -1,0 +1,29 @@
+// Poppins
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+// Fredoka
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
+
+// Font Variables
+$poppins: "Poppins", sans-serif;
+$fredoka: "Fredoka", sans-serif;
+
+// Type scale
+$type-scale: (
+  small: (
+    300: 1rem,
+    400: 1.125rem,
+    500: 1.563rem,
+    600: 1.953rem,
+    700: 2.441rem,
+    800: 3.052rem,
+  ),
+  large: (
+    300: 1rem,
+    400: 1.425rem,
+    500: 2rem,
+    600: 2.827rem,
+    700: 4rem,
+    800: 5.653rem,
+  ),
+);

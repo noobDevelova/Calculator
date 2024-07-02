@@ -1,0 +1,27 @@
+@use "../abstract/fonts" as *;
+@use "../abstract/mixins" as *;
+@use "../abstract/colors" as *;
+
+.box-wrapper {
+  padding-inline: 20px;
+  padding-top: 45px;
+  position: relative;
+  z-index: 9999;
+
+  .counter {
+    color: $grey;
+    text-align: end;
+    font-family: $fredoka;
+    font-size: 24px;
+    @include font-weight(semibold);
+    letter-spacing: 0.15em;
+  }
+  .result {
+    width: 100%;
+    text-align: right;
+    font-size: 48px;
+    @include font-weight(semibold);
+    border: none;
+    font-family: $fredoka;
+  }
+}
